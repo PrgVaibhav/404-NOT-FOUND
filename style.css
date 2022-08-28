@@ -1,0 +1,90 @@
+@import url("https://fonts.googleapis.com/css2?family=Inconsolata&family=Poppins:ital,wght@1,400;1,500&family=Space+Mono:ital@1&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+section .logo {
+  margin: 1rem 15rem;
+  font-family: "Inconsolata", monospace;
+}
+
+.container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 4rem;
+  height: 100vh;
+  width: 70%;
+  margin: 0 auto;
+  font-family: "Space Mono", monospace;
+}
+.container img {
+  width: 500px;
+  height: auto;
+  -webkit-animation: beat 2s 1;
+          animation: beat 2s 1;
+}
+.container h1 {
+  font-size: 2.1rem;
+  margin-bottom: 0.9rem;
+  font-style: normal;
+  font-weight: 700;
+  letter-spacing: 0.2rem;
+  color: #333333;
+}
+.container p {
+  font-size: 1.4rem;
+  margin-bottom: 0.9rem;
+  font-style: normal;
+  line-height: 36px;
+  color: #4f4f4f;
+}
+.container .btn {
+  padding: 0.8rem 1rem;
+  text-transform: uppercase;
+  font-size: 0.9rem;
+  cursor: pointer;
+  background-color: #333333;
+  color: #fff;
+  -webkit-transition: -webkit-transform 0.3s linear, -webkit-box-shadow 0.3s linear;
+  transition: -webkit-transform 0.3s linear, -webkit-box-shadow 0.3s linear;
+  transition: transform 0.3s linear, box-shadow 0.3s linear;
+  transition: transform 0.3s linear, box-shadow 0.3s linear, -webkit-transform 0.3s linear, -webkit-box-shadow 0.3s linear;
+}
+.container .btn:hover {
+  -webkit-transform: translate(4px, -4px);
+          transform: translate(4px, -4px);
+  -webkit-box-shadow: 12px 8px black;
+          box-shadow: 12px 8px black;
+}
+
+@-webkit-keyframes beat {
+  0% {
+    -webkit-transform: scale(0.8);
+            transform: scale(0.8);
+  }
+  100% {
+    -webkit-transform: scale(1.05);
+            transform: scale(1.05);
+  }
+}
+
+@keyframes beat {
+  0% {
+    -webkit-transform: scale(0.8);
+            transform: scale(0.8);
+  }
+  100% {
+    -webkit-transform: scale(1.05);
+            transform: scale(1.05);
+  }
+}/*# sourceMappingURL=style.css.map */
