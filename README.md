@@ -9,7 +9,7 @@
 <div align="center">
   <h3>
     <span> | </span>
-    <a href="https://{your-url-to-the-solution}">
+    <a href="https://prgvaibhav.github.io/404-NOT-FOUND/">
       Solution
     </a>
     <span> | </span>
