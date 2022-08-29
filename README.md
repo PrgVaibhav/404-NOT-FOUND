@@ -41,5 +41,5 @@ This application/site was created as a submission to a [DevChallenges](https://d
 ## Contact
 
 - Website [Portfolio](https://prgvaibhav.github.io/index.html)
-- GitHub [@your-username](https://{github.com/PrgVaibhav})
-- Twitter [@your-twitter](https://{twitter.com/SynatxError408})
+- GitHub [@PrgVaibhav](https://{github.com/PrgVaibhav})
+- Twitter [@SyntaxError408](https://{twitter.com/SynatxError408})
